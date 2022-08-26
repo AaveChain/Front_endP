@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CYPTO Market Register</title>
+
+<link rel="stylesheet" href="css/swag.css">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body background="image/bg.jpg">
+	<div id="main">
+	<div id="bar">
+	<span id="logo">Auction</span>
+	<span id="about"><i class="fab fa-adn"></i>About</span>
+	<span id="contact"><i class="fas fa-phone-square"></i>Contact</span>
+	</div>
+			
+			<div id="submain">
+		<div class="frm">
+		
+		<form>
+			<p class="fit">Name</p> <input type="text" name="name" required placeholder="Joe Pikins"><br />
+		<p class="fit">Email</p> <input type="email" name="email" required
+				placeholder="joe.pikins@nm.com"><br />
+			 <p class="fit">Contact Number</p> <input type="text" required
+				placeholder="10 digit number" pattern="[6789]{1}[0-9]{9}"><br />
+			<p class="fit"> Password</p> <input type="password" placeholder="********"  name="pass"
+				pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br />
+			 <p class="fit">Confirm Password</p> <input type="password"  placeholder="********" name="pass"
+				pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br />
+			 <p class="fit">Role</p><p class="fit"><input name="role" type="radio">Bidder 
+			 <input
+				name="role" type="radio">Seller <input name="role"
+				type="radio">Both<br /></p>
+			<p class="fit"><input type="checkbox"><span class="terms">I agree to Terms and Conditions</span><br /></p>
+			<input id="btn" type="submit" value="Register">
+
+		</form>
+	
+		</div>
+		<div class="image">
+	<img src="image/undraw.png" width="150px">
+	</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
